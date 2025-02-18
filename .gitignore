@@ -28,3 +28,6 @@ yarn-error.log*
 .env.development.local
 .env.test.local
 .env.production.local
+
+# Preventing accidental use of npm
+package-lock.json

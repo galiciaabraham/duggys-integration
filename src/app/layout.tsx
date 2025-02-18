@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import NavBar from '@/app/ui/layout/NavBar';
 import Footer from '@/app/ui/layout/Footer';
+import "./globals.css";
 
 export const metadata: Metadata = {
   title: {
@@ -17,11 +18,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      {/* <head>
-      <meta name="apple-mobile-web-app-title" content="Duggys favicon" />
-      </head> */}
       <body>
-          <header>
+          <header className='w-full bg-main-1'>
             < NavBar />
           </header>
           {children}
