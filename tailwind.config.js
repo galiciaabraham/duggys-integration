@@ -13,7 +13,13 @@ module.exports = {
       "accent-1": "#E48E37",
       "accent-2": "#7CE4C1",
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        titlesFont : ["Fira Sans", "serif"],
+        textFont : [ "Montserrat", "serif"],
+        specialFont : ["Phudu", "serif"]
+      }
+    },
   },
   plugins: [],
 }

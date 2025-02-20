@@ -4,7 +4,8 @@
     "build": "next build",
     "dev": "next dev",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "rebuild:css": "pnpm tailwindcss -i ./src/app/globals.css -o ./src/app/output.css --watch"
   },
   "dependencies": {
     "@types/react": "^19.0.2",

@@ -18,7 +18,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>
+      <body className="bg-secondary-1">
           <header className='w-full bg-main-1'>
             < NavBar />
           </header>
