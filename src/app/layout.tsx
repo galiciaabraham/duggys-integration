@@ -1,7 +1,10 @@
 import type { Metadata } from 'next';
 import NavBar from '@/app/ui/layout/NavBar';
 import Footer from '@/app/ui/layout/Footer';
+import Logo from "@/app/ui/layout/Logo";
+import Social from "@/app/ui/layout/Social"
 import "./globals.css";
+
 
 export const metadata: Metadata = {
   title: {
@@ -19,8 +22,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-secondary-1">
-          <header className='w-full bg-main-1'>
+          <header className="w-full bg-main-1 flex justify-between flex-col md:flex-row">
+            < Logo />
             < NavBar />
+            < Social />
           </header>
           {children}
           < Footer />
