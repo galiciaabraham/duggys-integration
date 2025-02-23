@@ -1,12 +1,18 @@
-import { Hero } from "../ui/resources/Hero";
+import { Hero } from "@/app/ui/resources/Hero";
+import { LocationMap } from "@/app/ui/resources/LocationMap";
+import { Reviews } from "@/app/ui/resources/Reviews";
+import { Address } from "@/app/ui/resources/Address";
 
 
 export default function Home() {
   return (
     <div>
       <Hero/>
-      <p className="bg-main-1 w-full">Hello World</p>
-      <div className="w-1/2 h-1/2 bg-main-2 border-main-1"></div>
+      <div className="grid grid-cols-1 md:grid-cols-2 m-3 ">
+      < Reviews />
+      < LocationMap/>
+      < Address />
+      </div>
     </div> 
   )
 }

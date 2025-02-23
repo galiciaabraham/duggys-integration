@@ -15,7 +15,7 @@ export function Hero() {
         <div className="absolute inset-0 bg-[url(/stock/molcajete.webp)] bg-cover bg-center opacity-35 blur-sm"></div>
         
             <div className="order-1">
-                <h1 className="font-fenix font-bold text-8xl text-center p-3 text-secondary-1 drop-shadow-xl">Duggy's</h1>
+                <h1 className="font-fenix font-bold text-8xl text-center p-3 text-secondary-1 drop-shadow-xl">Mamita's Food</h1>
                 <h2 className="font-firaSans text-center text-6xl p-3 text-secondary-1 drop-shadow-xl"> Welcome to your new favorite!</h2>
             </div>
             <div className="order-3 md:order-2 md:text-left md:col-start-1 md:col-end-2  relative z-10 m-1 md:m-3 p-4 text-secondary-1 text-center">
