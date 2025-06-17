@@ -22,7 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="bg-secondary-1">
-          <header className="w-full bg-main-1 flex justify-between flex-col md:flex-row">
+          <header className="w-full bg-main-1 flex justify-between md:flex-row">
             < Logo />
             < NavBar />
             < Social />
