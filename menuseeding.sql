@@ -17,7 +17,7 @@ INSERT INTO menu_items (name, category, description, price) VALUES
     ('Tacos de Suadero', 'taco_order','Beef meat', 15.00),
     ('Tacos de Longaniza', 'taco_order','I dunno', 14.00),
     ('Tacos Gobernador', 'taco_order','Shrimp and cheese', 15.00),
-    ('Pollo Asado', 'taco_order','Grilled chicken' 25.00),
+    ('Pollo Asado', 'taco_order','Grilled chicken0', 25.00),
     ('Tacos Dorados', 'taco_order','Fried Chicken tacos', 20.00),
     ('Tacos de Alambre', 'taco_order','Beef, pork, bell pepper, onion, mushrooms, and cheese',25.00);
 
@@ -31,7 +31,7 @@ INSERT INTO menu_items (name, category, description, price) VALUES
     ('Taco de Suadero', 'individual_taco','Beef meat', 2.99),
     ('Taco de Longaniza', 'individual_taco', 'I dunno', 3.99),
     ('Taco Gobernador', 'individual_taco','Shrimp and cheese', 4.99),
-    ('Pollo Asado', 'individual_taco','Grilled chicken' 4.99),
+    ('Pollo Asado', 'individual_taco','Grilled chicken', 4.99),
     ('Taco de Alambre', 'individual_taco','Beef, pork, bell pepper, onion, mushrooms, and cheese',4.99);
 
 -- Insert Drinks
@@ -40,7 +40,7 @@ INSERT INTO menu_items (name, category, description, price) VALUES
     ('Agua de Jamaica', 'drink', 'Natural infusion of hibiscus flower ', 4.99),
     ('Horchata', 'drink', 'Rice and natural sweeteners', 4.99),
     ('Tamarindo', 'drink', 'Tamarindo pulp with natural sweeteners', 4.99),
-    ('Soda (Refil)', 'drink', 3.99);
+    ('Soda (Refil)', 'drink','Just normal soda', 3.99);
 
 --Insert appetizers
 INSERT INTO menu_items (name, category, description, price)

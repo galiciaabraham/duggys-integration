@@ -31,3 +31,4 @@ yarn-error.log*
 
 # Preventing accidental use of npm
 package-lock.json
+.vercel
