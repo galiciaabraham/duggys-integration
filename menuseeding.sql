@@ -9,7 +9,7 @@ CREATE TABLE menu_items (
 
 --Insert Main Dishes : 4-Taco orders
 INSERT INTO menu_items (name, category, description, price) VALUES
-    ('Tacos al Pastor', 'order_tacos','Pork meat', 19.00),
+    ('Tacos al Pastor', 'taco_order','Pork meat', 19.00),
     ('Tacos de Asada', 'taco_order','Beef meat', 15.00),
     ('Tacos de Cochinita', 'taco_order','Pork Yucatecan meat', 10.00),
     ('Tacos Campechanos', 'taco_order','Asada and Longaniza, or Suadero and Longaniza', 35.00),

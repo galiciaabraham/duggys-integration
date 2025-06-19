@@ -27,20 +27,20 @@ export function MenuOptions({category, title}: MenuOptionsProps) {
     const [menuItems, setMenuItems ] = useState<MenuItem[]>([]);
     const [loading, setLoading] = useState(true);
 
-    useEffect(()=>{
-        fetch(`/api/menu?category=&{category}`).then((res) => res.json()).then((data)=>{
-            setMenuItems(data);
+    useEffect(()=> {
+        fetch(`/api/menu?category=${category}`).then((res) => res.json()).then((data)=>{
+            setMenuItems(Array.isArray(data) ? data : []) ;
             setLoading(false);
         });
     },[category]);
 
     return( 
-        <div id={`menu-${category}`} className="border-r-main-1 p4">
-                            <h2 className={`${phudu.className} font-bold text-3xl text-center p-3 text-secondary-1`}>{title}</h2>
+        <div id={`menu-${category}`} className="border-r-main-1 p-4 m-2">
+                            <h2 className={`${phudu.className} font-bold text-3xl text-center p-3 text-secondary-3`}>{title}</h2>
                             {loading ? (
                                 <p className="text-center p2 text-lg">Loading...</p>
                             ) : (
-                                <table className="w-full text-left border border-black-200">
+                                <table className="w-full text-left border border-black-200 m-3 p-2">
                                 <thead className="bg-secondary-1 bg-opacity-15">
                                 <tr>
                                     <th scope="col" className="p-2">Name</th>
@@ -53,7 +53,7 @@ export function MenuOptions({category, title}: MenuOptionsProps) {
                                         <tr key={item.id} className="border=t">
                                             <td className="p-2">{item.name}</td>
                                             <td className="p2 italic text-sm">{item.description}</td>
-                                            <td className="p-2">{item.price.toFixed(2)}</td>
+                                            <td className="p-2">{item.price}</td>
                                     </tr>
                                     ))}
                                 </tbody>
