@@ -15,14 +15,14 @@ export function Hero() {
         <div className="absolute inset-0 bg-[url(/stock/molcajete.webp)] bg-cover bg-center opacity-35 blur-sm"></div>
         
             <div className="order-1">
-                <h1 className="font-fenix font-bold text-8xl text-center p-3 text-secondary-1 drop-shadow-xl">Mamita's Food</h1>
-                <h2 className="font-firaSans text-center text-6xl p-3 text-secondary-1 drop-shadow-xl"> Welcome to your new favorite!</h2>
+                <h1 className="font-fenix font-bold text-8xl text-center p-5 md:m-5 text-secondary-1 drop-shadow-xl">Mamita's Food</h1>
+                <h2 className="font-firaSans text-center text-6xl p-5 md:m-3 text-secondary-1 drop-shadow-xl"> Welcome to your new favorite!</h2>
             </div>
-            <div className="order-3 md:order-2 md:text-left md:col-start-1 md:col-end-2  relative z-10 m-1 md:m-3 p-4 text-secondary-1 text-center">
-                <h3 className=" font-firaSans  font-bold text-6xl p-6 drop-shadow-lg">Fresh</h3>
-                <h3 className="font-phudu text-5xl p-3 drop-shadow-lg">Home Made</h3>
-                <h3 className="font-firaSans  font-bold text-6xl p-3 drop-shadow-lg">Natural</h3>
-                <h3 className="font-phudu text-5xl p-6 drop-shadow-lg">Delicious</h3>
+            <div className="order-3 md:order-2 md:text-left md:col-start-1 md:col-end-2  relative z-10 m-1 md:m-5 p-5 text-secondary-1 text-center">
+                <h3 className=" font-firaSans  font-bold text-6xl p-6 md:ml-10 drop-shadow-lg">Fresh</h3>
+                <h3 className="font-phudu text-5xl p-3 drop-shadow-lg md:ml-10">Home Made</h3>
+                <h3 className="font-firaSans  font-bold text-6xl p-3 drop-shadow-lg md:ml-10">Natural</h3>
+                <h3 className="font-phudu text-5xl p-6 drop-shadow-lg md:ml-10">Delicious</h3>
             </div>
             <div className="order-2 md:order-3  md:row-start-1 md:col-start-2 md:row-end-3 md:flex md:flex-col md:justify-center p-4 m-1 md:m-4 z-20 ">
                 <Image src={"/stock/tacos.webp"}

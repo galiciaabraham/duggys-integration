@@ -40,7 +40,7 @@ export function MenuOptions({category, title}: MenuOptionsProps) {
                             {loading ? (
                                 <p className="text-center p2 text-lg">Loading...</p>
                             ) : (
-                                <table className="w-full text-left border border-black-200 m-3 p-2">
+                                <table className="w-full text-left border border-black-200 p-2">
                                 <thead className="bg-secondary-1 bg-opacity-15">
                                 <tr>
                                     <th scope="col" className="p-2">Name</th>
